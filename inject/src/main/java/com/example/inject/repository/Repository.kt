@@ -1,10 +1,10 @@
 package com.example.inject.repository
 
-import com.example.inject.repository.course.CourseInterFace
-import com.example.inject.repository.exam.ExamInterFace
-import com.example.inject.repository.massage.MassageInterFace
-import com.example.inject.repository.yearOptions.YearOptionsInterFace
+import com.example.inject.repository.course.CourseInterface
+import com.example.inject.repository.exam.ExamInterface
+import com.example.inject.repository.massage.MassageInterface
+import com.example.inject.repository.yearOptions.YearOptionsInterface
 
-interface Repository : CourseInterFace,YearOptionsInterFace,ExamInterFace,MassageInterFace{
+interface Repository : CourseInterface,YearOptionsInterface,ExamInterface,MassageInterface{
 
 }
